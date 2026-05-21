@@ -31,9 +31,9 @@ Evaluate the model with test accuracy, confusion matrix, classification report, 
 
 ## PROGRAM
 
-### Name: SAIPRASATH P
+### Name: PRAJAN.SS
 
-### Register Number: 212224230238
+### Register Number: 212224230201
 
 
 ```PYTHON
@@ -144,8 +144,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
       print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss
-    print("Name: SAIPRASATH P")
-    print("Register Number:212224230238")
+    print("Name: PRAJAN.SS")
+    print("Register Number:212224230201")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -183,8 +183,8 @@ def test_model(model, test_loader):
 
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
-    print("Name: Syed Mohamed Raihan M")
-    print("Register Number: 212224240167")
+    print("Name: SANJEEV KUMAR")
+    print("Register Number: 212224040290")
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=train_dataset.classes, yticklabels=train_dataset.classes)
     plt.xlabel('Predicted')
@@ -193,8 +193,8 @@ def test_model(model, test_loader):
     plt.show()
 
     # Print classification report
-    print("Name:SAIPRASATH P")
-    print("Register Number:212224230238")
+    print("Name:PRAJAN.SS")
+    print("Register Number:212224230201")
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=train_dataset.classes))
 # Evaluate the model
@@ -252,7 +252,8 @@ predict_image(model, image_index=25, dataset=test_dataset)
 ## Classification Report
 
 
-<img width="372" height="170" alt="image" src="https://github.com/user-attachments/assets/17afa966-0b40-4dcd-8595-e5e431819a7a" />
+<img width="2846" height="1343" alt="Gemini_Generated_Image_i1i1dxi1i1dxi1i1" src="https://github.com/user-attachments/assets/3dac654a-f004-4f6e-b60e-d573a262bb6e" />
+
 
 
 
